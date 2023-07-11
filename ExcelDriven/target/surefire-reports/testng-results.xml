@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-10T05:46:28Z" name="Command line suite" finished-at="2023-07-10T05:46:47Z" duration-ms="19061">
+    <groups>
+    </groups>
+    <test started-at="2023-07-10T05:46:28Z" name="Command line test" finished-at="2023-07-10T05:46:47Z" duration-ms="19061">
+      <class name="TestCases.DataDrivenTest">
+        <test-method signature="login(java.util.Hashtable)[pri:0, instance:TestCases.DataDrivenTest@59309333]" started-at="2023-07-10T05:46:35Z" name="login" data-provider="loginData" finished-at="2023-07-10T05:46:43Z" duration-ms="8807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=admin, UserName=admin@yourstore.com, Result=valid}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.util.Hashtable)[pri:0, instance:TestCases.DataDrivenTest@59309333]" started-at="2023-07-10T05:46:43Z" name="login" data-provider="loginData" finished-at="2023-07-10T05:46:45Z" duration-ms="1171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=adm, UserName=admin@yourstore.com, Result=Invalid}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.util.Hashtable)[pri:0, instance:TestCases.DataDrivenTest@59309333]" started-at="2023-07-10T05:46:45Z" name="login" data-provider="loginData" finished-at="2023-07-10T05:46:46Z" duration-ms="1109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=admin, UserName=adm@yourstore.com, Result=Invalid}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.util.Hashtable)[pri:0, instance:TestCases.DataDrivenTest@59309333]" started-at="2023-07-10T05:46:46Z" name="login" data-provider="loginData" finished-at="2023-07-10T05:46:47Z" duration-ms="1104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=admin, UserName=adm@yourstore.com, Result=Invalid}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- TestCases.DataDrivenTest -->
+      <class name="TestCases.NewTest">
+        <test-method signature="f(java.util.Hashtable)[pri:0, instance:TestCases.NewTest@5876a9af]" started-at="2023-07-10T05:46:47Z" name="f" data-provider="getData" finished-at="2023-07-10T05:46:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedResult=LoginSuccess, RunMode=Y, UserPassword=pass1, UserName=user01, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f(java.util.Hashtable)[pri:0, instance:TestCases.NewTest@5876a9af]" started-at="2023-07-10T05:46:47Z" name="f" data-provider="getData" finished-at="2023-07-10T05:46:47Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedResult=LoginSuccess, RunMode=N, UserPassword=pass2, UserName=user02, Browser=firefox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.NewTest -->
+      <class name="TestCases.BaseTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:TestCases.BaseTest@1aa7ecca]" started-at="2023-07-10T05:46:28Z" name="beforeTest" finished-at="2023-07-10T05:46:29Z" duration-ms="541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e8fdd19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestCases.DataDrivenTest@59309333]" started-at="2023-07-10T05:46:29Z" name="beforeTest" finished-at="2023-07-10T05:46:34Z" duration-ms="5016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCases.BaseTest@1aa7ecca]" started-at="2023-07-10T05:46:47Z" name="afterTest" finished-at="2023-07-10T05:46:47Z" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestCases.BaseTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

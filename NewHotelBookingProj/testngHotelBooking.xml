@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Create Booking Test - pay@hotel">
+  <parameter name="action" value="pay@hotel"/>
+    <classes>
+      <class name="testCases.NewHotelBooking">
+      <methods>
+      
+      <include name="searchHotel"></include>
+      <include name="selectHotel"></include>
+      <include name="guestInfo"></include>
+      
+      </methods>
+      </class>
+      <class name="testCases.PaymentMethod">
+       <methods>
+      <include name="applyDiscount"></include>
+      <include name="makePayment"></include>
+     
+      </methods>
+      </class>
+      <class name="testCases.CustomerCommunication">
+       <methods>
+      <include name="getConfirmByMail"></include>
+      <include name="getConfirmByPhone"></include>
+      
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Modify existing Booking Test - electronic media">
+    <parameter name="action" value="electronic media"/>
+    <classes>
+      <class name="testCases.NewHotelBooking">
+      <methods>
+      
+      <include name="loadingHotel"></include>
+      <include name="guestInfo"></include>
+      
+      </methods>
+      </class>
+      <class name="testCases.PaymentMethod">
+       <methods>
+      <include name="applyDiscount"></include>
+      <include name="makePayment"></include>
+     
+      </methods>
+      </class>
+      <class name="testCases.CustomerCommunication">
+       <methods>
+      <include name="getConfirmByMail"></include>
+      <include name="getConfirmByPhone"></include>
+      
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="CreatePortifolioTest">
+    <classes>
+      <class name="testCases.SessionManagement">
+      <methods>
+      <include name="login"></include>
+      </methods>
+      </class>
+       
+      <class name="testCases.PortifilioManagement"> 
+      <methods>
+      <include name="create"></include>
+      </methods>
+      </class>
+     
+    </classes>
+  </test> 
+  
+  <!-- 
+  
+    <test thread-count="5" name="DeletePortifolioTest">
+    <classes>
+      <class name="testCases.SessionManagement">
+      <methods>
+      <include name="login"></include>
+      </methods>
+      </class>
+        <class name="testCases.PortifilioManagement">
+      <methods>
+      <include name="delete"></include>
+      </methods>
+      </class>
+    </classes>
+     </test>
+     -->
+</suite> <!-- Suite -->

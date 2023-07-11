@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="16" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-03T12:19:34 IST" name="Suite" finished-at="2023-05-03T12:19:34 IST" duration-ms="207">
+    <groups>
+    </groups>
+    <test started-at="2023-05-03T12:19:34 IST" name="Create New Booking Test - pay@hotal" finished-at="2023-05-03T12:19:34 IST" duration-ms="81">
+      <class name="testcases.PaymentManager">
+        <test-method signature="applyDicount()[pri:0, instance:testcases.PaymentManager@3e6ef8ad]" started-at="2023-05-03T12:19:34 IST" name="applyDicount" finished-at="2023-05-03T12:19:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyDicount -->
+        <test-method signature="makePayment(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcases.PaymentManager@3e6ef8ad]" started-at="2023-05-03T12:19:34 IST" name="makePayment" finished-at="2023-05-03T12:19:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pay@hotal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d0bf09b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makePayment -->
+      </class> <!-- testcases.PaymentManager -->
+      <class name="testcases.CommunicationProcess">
+        <test-method signature="checkMailVerification(org.testng.ITestContext)[pri:0, instance:testcases.CommunicationProcess@747edf66]" started-at="2023-05-03T12:19:34 IST" name="checkMailVerification" finished-at="2023-05-03T12:19:34 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d0bf09b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMailVerification -->
+        <test-method signature="checkMobailVerification(org.testng.ITestContext)[pri:0, instance:testcases.CommunicationProcess@747edf66]" started-at="2023-05-03T12:19:34 IST" name="checkMobailVerification" finished-at="2023-05-03T12:19:34 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d0bf09b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMobailVerification -->
+      </class> <!-- testcases.CommunicationProcess -->
+      <class name="testcases.HotelBooking">
+        <test-method signature="searchHotel()[pri:0, instance:testcases.HotelBooking@5fa07e12]" started-at="2023-05-03T12:19:34 IST" name="searchHotel" finished-at="2023-05-03T12:19:34 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotel -->
+        <test-method signature="selectHotel()[pri:0, instance:testcases.HotelBooking@5fa07e12]" started-at="2023-05-03T12:19:34 IST" name="selectHotel" finished-at="2023-05-03T12:19:34 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHotel -->
+        <test-method signature="enterGuestInfo()[pri:0, instance:testcases.HotelBooking@5fa07e12]" started-at="2023-05-03T12:19:34 IST" name="enterGuestInfo" finished-at="2023-05-03T12:19:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterGuestInfo -->
+      </class> <!-- testcases.HotelBooking -->
+    </test> <!-- Create New Booking Test - pay@hotal -->
+    <test started-at="2023-05-03T12:19:34 IST" name="Create New Booking Test - electronic media" finished-at="2023-05-03T12:19:34 IST" duration-ms="27">
+      <class name="testcases.PaymentManager">
+        <test-method signature="applyDicount()[pri:0, instance:testcases.PaymentManager@3d5c822d]" started-at="2023-05-03T12:19:34 IST" name="applyDicount" finished-at="2023-05-03T12:19:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyDicount -->
+        <test-method signature="makePayment(java.lang.String,org.testng.ITestContext)[pri:0, instance:testcases.PaymentManager@3d5c822d]" started-at="2023-05-03T12:19:34 IST" name="makePayment" finished-at="2023-05-03T12:19:34 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[electronic media]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4007f65e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makePayment -->
+      </class> <!-- testcases.PaymentManager -->
+      <class name="testcases.CommunicationProcess">
+        <test-method signature="checkMailVerification(org.testng.ITestContext)[pri:0, instance:testcases.CommunicationProcess@6f46426d]" started-at="2023-05-03T12:19:34 IST" name="checkMailVerification" finished-at="2023-05-03T12:19:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4007f65e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMailVerification -->
+        <test-method signature="checkMobailVerification(org.testng.ITestContext)[pri:0, instance:testcases.CommunicationProcess@6f46426d]" started-at="2023-05-03T12:19:34 IST" name="checkMobailVerification" finished-at="2023-05-03T12:19:34 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4007f65e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMobailVerification -->
+      </class> <!-- testcases.CommunicationProcess -->
+      <class name="testcases.HotelBooking">
+        <test-method signature="loadBooking()[pri:0, instance:testcases.HotelBooking@3c73951]" started-at="2023-05-03T12:19:34 IST" name="loadBooking" finished-at="2023-05-03T12:19:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBooking -->
+        <test-method signature="enterGuestInfo()[pri:0, instance:testcases.HotelBooking@3c73951]" started-at="2023-05-03T12:19:34 IST" name="enterGuestInfo" finished-at="2023-05-03T12:19:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterGuestInfo -->
+      </class> <!-- testcases.HotelBooking -->
+    </test> <!-- Create New Booking Test - electronic media -->
+  </suite> <!-- Suite -->
+</testng-results>

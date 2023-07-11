@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Create New Booking Test - pay@hotal">
+	<parameter name="action" value="pay@hotal"></parameter>
+		<classes>
+
+			<!--Methods execute accordingly alphabetic order -->
+			<!-- From above class want to execute few methods -->
+			<class name="testcases.HotelBooking">
+				<methods>
+					<include name="searchHotel"></include>
+					<include name="selectHotel"></include>
+					<include name="enterGuestInfo"></include>
+				</methods>
+			</class>
+			<class name="testcases.PaymentManager">
+				<methods>
+					<include name="applyDicount"></include>
+					<include name="makePayment"></include>
+
+				</methods>
+			</class>
+			<class name="testcases.CommunicationProcess">
+				<methods>
+					<include name="checkMailVerification"></include>
+					<include name="checkMobailVerification"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Create New Booking Test - electronic media">
+	<parameter name="action" value="electronic media"></parameter>
+		<classes>
+
+			<!--Methods execute accordingly alphabetic order -->
+			<!-- From above class want to execute few methods -->
+			<class name="testcases.HotelBooking">
+				<methods>
+
+					<include name="loadBooking"></include>
+					<include name="enterGuestInfo"></include>
+
+				</methods>
+			</class>
+			<class name="testcases.PaymentManager">
+				<methods>
+					<include name="applyDicount"></include>
+					<include name="makePayment"></include>
+
+				</methods>
+			</class>
+			<class name="testcases.CommunicationProcess">
+				<methods>
+					<include name="checkMailVerification"></include>
+					<include name="checkMobailVerification"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
